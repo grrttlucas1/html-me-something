@@ -1,0 +1,46 @@
+/*
+   1/17/17
+   Requirements:
+   > Use margin and padding 
+   > Use element, class, and ID
+   > Avoid adding HTML elements in order to achieve visual effect.
+   > Do not use doc level or inline styling.
+   
+   My Goals:
+   > Give the image an appropriate size and padding/margin so that it doesn't butt against the text.
+   > Soften the page's background and overall text color for readability.
+   > Play with fonts to see if I'd like something else.
+
+*/
+html {
+	background-color:#ffffcc;
+}
+
+img {
+	height:250px;
+	width:250px;
+	margin:15px;
+	padding:15px;
+}
+
+article {
+	font-family:sanserif;
+}
+
+p  {
+	font-size:20px;
+}
+
+header > span {
+	font-style:italic;
+	color:#5c5c3d;
+}
+
+span.lead-in {
+	font-size:1.5em;
+}
+
+#contactme {
+	color:blue;
+	text-decoration:none;
+}
